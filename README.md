@@ -21,7 +21,7 @@ All student data is stored and managed in a MySQL database.
 🌐 Live Hosting:
 The project is hosted online using InfinityFree
 
-📁 Tech Stack
+# Tech Stack
 Frontend: HTML, CSS
 
 Backend: PHP
@@ -30,7 +30,7 @@ Database: MySQL
 
 Hosting: InfinityFree
 
-🚀 How to Run Locally
+# How to Run Locally
 Clone the repo or download the ZIP
 
 Set up a local server using XAMPP
@@ -41,5 +41,5 @@ Update database connection details in config.php or similar file
 
 Start Apache and MySQL, then open the project in your browser
 
-👨‍💻 Author
+# Author
 Prashant Jha | B.Tech CSE | Kalinga Institute of Industrial Technology (KIIT)
