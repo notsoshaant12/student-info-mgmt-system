@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Student Record</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://imgs.search.brave.com/_MT_2-0kNDCplUNgZhsunxRZFJflWucJ1prngL1q61A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9raWl0/LmFjLmluL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIxLzAyL0tJ/SVQtVW5pdmVyc2l0/eS1DYW11cy0zLUxp/YnJhcnkuanBn') no-repeat center center/cover;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        .delete-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .buttons {
+            margin-top: 15px;
+        }
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .delete-btn {
+            background-color: #d9534f;
+            color: white;
+        }
+        .cancel-btn {
+            background-color: #5bc0de;
+            color: white;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="delete-box">
+        <h3>Enter the Roll No. to Delete</h3>
+        <form method="post" action="areusure.html">
+            <input type="text" name="roll" placeholder="Enter Roll No." required>
+            <div class="buttons">
+                <button type="submit" class="delete-btn">Delete</button>
+                <button type="reset" class="cancel-btn" onclick="window.history.back();">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

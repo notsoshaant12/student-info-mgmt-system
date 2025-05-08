@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Student Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://imgs.search.brave.com/_MT_2-0kNDCplUNgZhsunxRZFJflWucJ1prngL1q61A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9raWl0/LmFjLmluL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIxLzAyL0tJ/SVQtVW5pdmVyc2l0/eS1DYW11cy0zLUxp/YnJhcnkuanBn') no-repeat center center/cover;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        .left {
+            text-align: right;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .right input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .right input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .button-container {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        input[type="submit"], button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        button {
+            background-color: #dc3545;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        button:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h3>Update Student Details!!</h3>
+        <form method="post" action="update.php">
+            <table>
+                <tr>
+                    <td class="left">Roll no.</td>
+                    <td class="right"><input type="text" name="roll" size="20" maxlength="25" required/></td>
+                </tr>
+                <tr>
+                    <td class="left">Name</td>
+                    <td class="right"><input type="text" name="name" size="20" maxlength="25" required/></td>
+                </tr>
+                <tr>
+                    <td class="left">CGPA</td>
+                    <td class="right"><input type="text" name="cgpa" size="20" maxlength="25" required/></td>
+                </tr>
+                <tr>
+                    <td class="left">Gender</td>
+                    <td class="right">
+                        <input type="radio" name="gender" value="Male" checked/> Male
+                        <input type="radio" name="gender" value="Female"/> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left">Branch</td>
+                    <td class="right">
+                        <input type="radio" name="branch" value="cse" checked/> CSE
+                        <input type="radio" name="branch" value="csse"/> CSSE
+                        <input type="radio" name="branch" value="csce"/> CSCE
+                        <input type="radio" name="branch" value="it"/> IT
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="button-container">
+                        <input type="submit" value="Update"/>
+                        <button type="button" onclick="window.history.back();">Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
