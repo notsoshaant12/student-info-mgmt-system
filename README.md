@@ -20,7 +20,6 @@ All student data is stored and managed in a MySQL database.
 
 🌐 Live Hosting:
 The project is hosted online using InfinityFree
-🔗 Live Demo
 
 📁 Tech Stack
 Frontend: HTML, CSS
@@ -29,7 +28,7 @@ Backend: PHP
 
 Database: MySQL
 
-Hosting: InfinityFree (free PHP hosting)
+Hosting: InfinityFree
 
 🚀 How to Run Locally
 Clone the repo or download the ZIP
