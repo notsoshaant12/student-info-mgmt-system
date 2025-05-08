@@ -1,6 +1,6 @@
 # Student Information Management System
 A web-based student record portal built using PHP, MySQL, HTML, and CSS, simulating a simplified SAP-like system for college-level academic data management.
-Features
+# Features
 🔐 Admin Login Panel:
 Secure admin authentication for accessing management tools.
 
@@ -42,5 +42,4 @@ Update database connection details in config.php or similar file
 Start Apache and MySQL, then open the project in your browser
 
 👨‍💻 Author
-Prashant Jha
-B.Tech CSE | Kalinga Institute of Industrial Technology (KIIT)
+Prashant Jha | B.Tech CSE | Kalinga Institute of Industrial Technology (KIIT)
