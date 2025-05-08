@@ -29,7 +29,7 @@
 <body>
     <?php
     // database connection
-    $con = mysqli_connect('localhost:3306', 'root', '', 'cse15');
+    $con = mysqli_connect('sql112.infinityfree.com:3306', 'if0_38929520', 'Prajha2004', 'if0_38929520_cse15');
 
     // get the post records
     $roll = $_POST['roll'];
