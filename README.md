@@ -4,13 +4,8 @@ A web-based student record portal built using PHP, MySQL, HTML, and CSS, simulat
 🔐 Admin Login Panel:
 Secure admin authentication for accessing management tools.
 
-🧾 Admin Functionalities:
-
-  Add new student records
-
-  Edit/update existing records
-
-  Delete student records from the database
+🧾 Admin Functionalities: 
+Add new student records, Edit/update existing records, Delete student records from the database
 
 🎓 Student Access Panel:
 Students can enter their Roll Number and Year to view their own academic data.
