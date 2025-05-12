@@ -35,11 +35,13 @@ Clone the repo or download the ZIP
 
 Set up a local server using XAMPP
 
-Import the SQL file into phpMyAdmin
+Import the SQL file into phpMyAdmin (localhost/phpmyadmin)
 
-Update database connection details in config.php or similar file
+Update database connection details in all php files
 
-Start Apache and MySQL, then open the project in your browser
+Add the folder containing html files to htdocs under xampp in C drive 
+
+Start Apache and MySQL server in xampp, then open the project in your browser in the following format: localhost/foldername/index.html
 
 # Author
 Prashant Jha | B.Tech CSE | Kalinga Institute of Industrial Technology (KIIT)
