@@ -6,11 +6,11 @@ Secure admin authentication for accessing management tools.
 
 🧾 Admin Functionalities:
 
-Add new student records
+  Add new student records
 
-Edit/update existing records
+  Edit/update existing records
 
-Delete student records from the database
+  Delete student records from the database
 
 🎓 Student Access Panel:
 Students can enter their Roll Number and Year to view their own academic data.
